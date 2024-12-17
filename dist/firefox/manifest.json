@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "__MSG_brandName__",
   "description": "__MSG_brandDescription__",
-  "version": "0.5.17",
+  "version": "1.12.4",
   "default_locale": "en",
   "background": {
     "scripts": [
@@ -12,9 +12,8 @@
   "web_accessible_resources": [
     "styles/inject.css",
     "pdf/index.html",
-    "ebook/index.html",
-    "ebook/index.html",
-    "ebook/make/index.html"
+    "video-subtitle/inject.js",
+    "image/inject.js"
   ],
   "content_scripts": [
     {
@@ -28,6 +27,18 @@
       ],
       "run_at": "document_end",
       "all_frames": true
+    },
+    {
+      "matches": [
+        "<all_urls>",
+        "file:///*",
+        "*://*/*"
+      ],
+      "js": [
+        "content_start.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
     }
   ],
   "commands": {
@@ -35,7 +46,7 @@
       "suggested_key": {
         "default": "Alt+A"
       },
-      "description": "__MSG_toggleTranslatePage__"
+      "description": "__MSG_toggleTranslatePageOfficialPage__"
     },
     "toggleTranslateTheWholePage": {
       "suggested_key": {
@@ -54,6 +65,48 @@
     },
     "toggleTranslationMask": {
       "description": "__MSG_toggleTranslationMask__"
+    },
+    "shareToDraft": {
+      "description": "__MSG_shareToDraft__"
+    },
+    "toggleMouseHoverTranslateDirectly": {
+      "description": "__MSG_toggleMouseHoverTranslateDirectly__"
+    },
+    "translateWithOpenAI": {
+      "description": "__MSG_translateWithOpenAI__"
+    },
+    "translateWithDeepL": {
+      "description": "__MSG_translateWithDeepL__"
+    },
+    "translateWithGoogle": {
+      "description": "__MSG_translateWithGoogle__"
+    },
+    "translateWithTransmart": {
+      "description": "__MSG_translateWithTransmart__"
+    },
+    "translateWithGemini": {
+      "description": "__MSG_translateWithGemini__"
+    },
+    "translateWithBing": {
+      "description": "__MSG_translateWithBing__"
+    },
+    "translateWithClaude": {
+      "description": "__MSG_translateWithClaude__"
+    },
+    "translateInputBox": {
+      "description": "__MSG_translateInputBox__"
+    },
+    "translateWithCustom1": {
+      "description": "__MSG_translateWithCustom1__"
+    },
+    "translateWithCustom2": {
+      "description": "__MSG_translateWithCustom2__"
+    },
+    "translateWithCustom3": {
+      "description": "__MSG_translateWithCustom3__"
+    },
+    "toggleVideoSubtitlePreTranslation": {
+      "description": "__MSG_toggleVideoSubtitlePreTranslation__"
     }
   },
   "options_ui": {
@@ -111,6 +164,9 @@
     "gecko": {
       "id": "{5efceaa7-f3a2-4e59-a54b-85319448e305}",
       "strict_min_version": "63.0"
+    },
+    "gecko_android": {
+      "strict_min_version": "113.0"
     }
   }
 }

@@ -1,18 +1,18 @@
 {
-  "brandName": {
+  "shortBrandName": {
     "message": "沉浸式翻譯"
   },
+  "brandName": {
+    "message": "沉浸式翻譯 - 網頁翻譯擴充 | PDF翻譯 | 免費"
+  },
   "brandDescription": {
-    "message": "沉浸式網頁雙語翻譯套件，完全免費使用，支援 Deepl/Google/騰訊/火山翻譯等多個翻譯服務，支援 Firefox/Chrome/油猴腳本，亦可在 iOS Safari 上使用。"
+    "message": "【沉浸式翻譯】免費的（原文/譯文）雙語對照網頁翻譯插件，支持PDF翻譯（保留排版），影片雙語字幕翻譯（Youtube, Netflix），EPUB電子書翻譯；支持人工智能AI翻譯大模型（OpenAI (ChatGPT)、DeepL、Gemini(Bard) 等）"
   },
   "toggleTranslatePage": {
-    "message": "翻譯網頁/顯示原文"
+    "message": "翻譯為{targetLanguage}"
   },
   "toggleTranslateTheWholePage": {
     "message": "翻譯頁面全部區域/顯示原文"
-  },
-  "toggleOnlyTransation": {
-    "message": "翻譯並隱藏原文/顯示原文"
   },
   "toggleTranslateToThePageEndImmediately": {
     "message": "立即翻譯到頁面底部/顯示原文"
@@ -20,11 +20,11 @@
   "toggleTranslateTheMainPage": {
     "message": "翻譯頁面主要區域/顯示原文"
   },
+  "shareToDraft": {
+    "message": "生成網頁快照"
+  },
   "openOptionsPage": {
     "message": "開啟設定頁面"
-  },
-  "toggleTranslationMask": {
-    "message": "顯示/隱藏譯文模糊效果"
   },
   "translateLocalPdfFile": {
     "message": "翻譯本機 PDF 檔案"
@@ -33,7 +33,7 @@
     "message": "閱讀本機電子書"
   },
   "openEbookBuilder": {
-    "message": "製作雙語 Epub 電子書"
+    "message": "製作雙語 EPUB 電子書"
   },
   "translateLocalHtmlFile": {
     "message": "翻譯 HTML/txt 檔案"
@@ -41,10 +41,70 @@
   "translateLocalSubtitleFile": {
     "message": "翻譯字幕檔案"
   },
-  "donateContext": {
-    "message": "了解贊助福利"
-  },
   "openAboutPage": {
-    "message": "關於/問題回報/贊助"
+    "message": "關於/問題回報"
+  },
+  "toggleMouseHoverTranslateDirectly": {
+    "message": "在頁面上臨時啟用或關閉滑鼠懸停直接翻譯"
+  },
+  "translateWithOpenAI": {
+    "message": "臨時使用 OpenAI 翻譯當前頁面"
+  },
+  "translateWithDeepL": {
+    "message": "臨時使用 DeepL 翻譯當前頁面"
+  },
+  "translateWithGoogle": {
+    "message": "臨時使用 Google 翻譯當前頁面"
+  },
+  "translateWithBing": {
+    "message": "臨時使用微軟翻譯當前頁面"
+  },
+  "translateWithGemini": {
+    "message": "臨時使用 Gemini 翻譯當前頁面"
+  },
+  "translateWithTransmart": {
+    "message": "臨時使用騰訊翻譯當前頁面"
+  },
+  "translateInputBox": {
+    "message": "翻譯當前輸入框內容"
+  },
+  "toggleOnlyTransation": {
+    "message": "切換雙語/僅譯文模式"
+  },
+  "toggleTranslationMask": {
+    "message": "切換當前頁面譯文為模糊效果（學習模式）"
+  },
+  "toggleVideoSubtitlePreTranslation": {
+    "message": "切換雙語字幕優先使用沉浸式翻譯設定"
+  },
+  "brandDescriptionForSafari": {
+    "message": "【沉浸式翻譯】一款免費的（原文/譯文）雙語對照網頁翻譯插件，同時支持PDF翻譯和EPUB電子書翻譯且保留原文檔排版，YouTube/Netflix等在線影片雙語字幕翻譯，支持Deepl/Google等主流翻譯服務;"
+  },
+  "PdfProFile": {
+    "message": "AI 驅動的 PDF Pro 翻譯"
+  },
+  "textTranslate": {
+    "message": "文本翻譯（對比多個翻譯服務）"
+  },
+  "translateWithClaude": {
+    "message": "臨時使用 Claude 翻譯當前頁面"
+  },
+  "toggleTranslatePageOfficialPage": {
+    "message": "翻譯網頁/顯示原文"
+  },
+  "translateText": {
+    "message": "翻譯文本：\"{text}\""
+  },
+  "translateWithCustom1": {
+    "message": "暫時使用自訂翻譯服務翻譯目前頁面(1)"
+  },
+  "translateWithCustom2": {
+    "message": "暫時使用自訂翻譯服務翻譯目前頁面(2)"
+  },
+  "translateWithCustom3": {
+    "message": "暫時使用自訂翻譯服務翻譯目前頁面(3)"
+  },
+  "translateMangaMenuId": {
+    "message": "翻譯圖片/還原圖片"
   }
 }

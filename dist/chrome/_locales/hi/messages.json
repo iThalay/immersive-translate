@@ -44,9 +44,6 @@
   "translateLocalHtmlFile": {
     "message": "HTML/txt फ़ाइलों का अनुवाद करें"
   },
-  "donateContext": {
-    "message": "प्रायोजन लाभों के बारे में जानें"
-  },
   "translateLocalSubtitleFile": {
     "message": "स्थानीय उपशीर्षक फ़ाइलों का अनुवाद करें"
   },
@@ -106,5 +103,8 @@
   },
   "translateWithCustom2": {
     "message": "वर्तमान पृष्ठ का अनुवाद करने के लिए अस्थायी रूप से कस्टम अनुवाद सेवा का उपयोग करें(2)"
+  },
+  "translateMangaMenuId": {
+    "message": "छवि का अनुवाद करें/छवि पुनर्स्थापित करें"
   }
 }

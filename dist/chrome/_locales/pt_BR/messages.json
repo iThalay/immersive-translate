@@ -38,9 +38,6 @@
   "translateLocalHtmlFile": {
     "message": "Traduzir arquivo HTML/txt"
   },
-  "donateContext": {
-    "message": "Explorar Benefícios de Patrocinador"
-  },
   "translateLocalSubtitleFile": {
     "message": "Traduzir Arquivo de Legenda Local"
   },
@@ -106,5 +103,8 @@
   },
   "translateWithCustom2": {
     "message": "Uso temporário de serviços de tradução personalizados para traduzir a página atual(2)"
+  },
+  "translateMangaMenuId": {
+    "message": "Traduzir imagem/restaurar imagem"
   }
 }

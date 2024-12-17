@@ -38,9 +38,6 @@
   "translateLocalHtmlFile": {
     "message": "Translate HTML/txt File"
   },
-  "donateContext": {
-    "message": "Explore Sponsorship Benefits"
-  },
   "translateLocalSubtitleFile": {
     "message": "Translate Local Subtitle File"
   },
@@ -72,7 +69,7 @@
     "message": "Translate the content of the current input box"
   },
   "toggleOnlyTransation": {
-    "message": "Switch to bilingual/translation-only mode"
+    "message": "Switch to /translation-only mode"
   },
   "toggleTranslationMask": {
     "message": "Toggle blur effect on translated text (learning mode) for the current page"
@@ -106,5 +103,8 @@
   },
   "translateWithCustom3": {
     "message": "Temporary use of custom translation services to translate the current page(3)"
+  },
+  "translateMangaMenuId": {
+    "message": "Translate image/restore image"
   }
 }

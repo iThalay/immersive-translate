@@ -44,9 +44,6 @@
   "translateLocalHtmlFile": {
     "message": "翻译本地 HTML 文件"
   },
-  "donateContext": {
-    "message": "با مزایای حمایت مالی آشنا شوید"
-  },
   "translateLocalSubtitleFile": {
     "message": "فایل های زیرنویس محلی را ترجمه کنید"
   },
@@ -106,5 +103,8 @@
   },
   "translateWithCustom2": {
     "message": "به طور موقت از یک سرویس ترجمه سفارشی برای ترجمه صفحه فعلی استفاده کنید (2)"
+  },
+  "translateMangaMenuId": {
+    "message": "ترجمه تصویر/بازیابی تصویر"
   }
 }
